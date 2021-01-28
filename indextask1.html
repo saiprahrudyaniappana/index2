@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0" >
+	<title>resume</title>
+	<style>
+		header{
+			background-color: #1f4a75;
+			color:#fff;
+			padding:1%;
+		}
+		.parent{
+			display:flex;
+			flex-flow: row wrap;
+			justify-content: center;
+		}
+		.child-1{
+			width:30%;
+			border:1px solid #ddd;
+			box-shadow:0px 8px 8px -8px #000;
+			padding:1px;
+			margin:1px;
+		}
+		.child-2{
+			width:30%;
+			border:1px solid #ddd;
+			box-shadow:0px 8px 8px -8px #000;
+			padding:1px;
+			margin:1px;
+		}
+			.child-1 img{
+				width:25%;
+				text-align:center;
+			}
+			.child-2 h3{
+				margin:0% auto;
+				text-align:center;
+			}
+			@media only screen and (min-width: 320px) and (max-width: 480px){
+				.child-1;
+				.child-2{
+					width:90%;
+					font-size: 25px;
+				}
+			@media only screen and (min-width: 481px) and (max-width: 767px){
+				.child-1;
+				.child-2{
+					width:90%;
+					font-size: 25px;
+					}
+				}		
+	</style>
+</head>
+<body>
+	<header>
+		Profile information
+	</header>
+	<main class="parent">
+		<article class="child-1"><img src="icon.png" alt="user"/> <br>
+			<h2> Lucky </h2>
+			<h2> lucky@gmail.com </h2>
+			
+		</article>
+		<article class="child-2">
+			<h2> Summary </h2> <hr>
+			<ul>
+				<li>having knowledge on c and java</li>
+				<li>having knowledge on python and c++</li>
+				<li>having knowledge on .net and oracle</li>
+			</ul>s
+			
+		</article>
+
+
+
+</body>
+</html>
